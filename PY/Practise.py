@@ -170,10 +170,10 @@
 #     print(f"Student ID: {student_id},Name: {student['name']},Major: {student['major']}")
 
 #loop
-for i in range(5):
-    print(i)
+# for i in range(5):
+#     print(i)
 
-# for i in range (1,10)   :
+# for i in range (1,10):
 #     print(i)
 
 # for i in range (0,10,2) :
@@ -184,3 +184,12 @@ for i in range(5):
 # while count < 5:
 #     print(count)
 #     count += 1
+
+#lopop control statement
+
+for i in range (1, 11):
+    if i == 2:
+        continue
+    if i == 8:
+        break
+    print(i)
